@@ -1,0 +1,129 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v6.1.2/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner{
+  margin: 0 auto;
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+  transition: 0.5s ease-in-out;
+}
+
+.banner:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+.container{
+  color: white;
+  margin: auto;
+  width: 900px;
+}
+
+.btn-primary{
+  border: 1px solid white;
+  padding: 10px 30px;
+  border-radius: 50px;
+  background-color: black;
+  font-size: 15px;
+  font-weight: bold;
+  box-shadow: 3px, 3px 5 white;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.btn-primary:hover{
+  color: black;
+  border: 1px solid black;
+  background-color: white;
+  transition: 0.5s ease-in-out;
+}
+
+.banner h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.banner p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+.container .card{
+  color: black;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-direction: wrap;
+}
+
+.card{
+  width: 200px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgb(170, 170, 170);
+  text-align: center;
+  padding: 20px;
+  border: 1px solid rgb(170, 170, 170);
+  transition: 0.5s ease-in-out;
+}
+
+.card:hover{
+  transform: scale(1.15);
+  cursor: pointer;
+}
+
+.card img{
+  width: 100px;
+  min-height: 100px;
+}
+.text-center{
+  color: black;
+  font-size: 35px;
+  text-align: center;
+}
+
+.footer{
+  width: 100%;
+  height: 300px;
+  background-color: black;
+}
+
+.links{
+  color: rgb(180, 180, 180);
+  text-align: center;
+  padding: 60px;
+}
+.footer a{
+  color: rgb(180, 180, 180);
+  font-size: 35px;
+}
+
+.links .fa-solid{
+  color: rgb(177, 0, 0)
+}
